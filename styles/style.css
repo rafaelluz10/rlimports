@@ -78,7 +78,7 @@ body {
 
 .product img {
   max-width: auto;
-  height: 200px;
+  height: 100px;
   object-fit: cover;
   border-radius: 30px;
 }
