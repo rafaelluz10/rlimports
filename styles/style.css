@@ -45,6 +45,7 @@ body {
   background-color: black;
   color: white; 
   margin: 0px;
+  cursor: pointer; 
 }
 
 .category a {
@@ -78,7 +79,7 @@ body {
 
 .product img {
   max-width: auto;
-  height: 200px;
+  height: 300px;
   object-fit: cover;
   border-radius: 30px;
 }
