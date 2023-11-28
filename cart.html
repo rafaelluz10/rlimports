@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="styles/cart-style.css">
+    <link rel="stylesheet" href="styles/header.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="index.html">
+          <img src="midia/Página Inicial/rl.png" alt="Logo RL Imports">
+        </a>
+          <h1>RL IMPORTS</h1>
+        </div>
+        <span class="material-symbols-outlined" style="font-size: 35pt; margin-right: 16px; cursor: pointer" id="back">
+            arrow_back
+        </span>
+      </div>
+    <main>
+        <!-- <div class="itemForm">
+            <form action="" name="product">
+                <input type="text" name="name" required>
+                <input type="text" name="preco" required>
+                <input type="text" name="quantidade" required>
+                <button type="submit">Adicionar</button>
+            </form>
+        </div> -->
+        <section class="cart">
+            <h2>Itens no Carrinho</h2>
+            <ul id="cart-items">
+                <p>Não há items no carrinho</p>
+            </ul>
+        </section>
+        <section class="checkout">
+            <h2>Checkout</h2>
+            <p>Total do Carrinho: <span id="cart-total">R$0.00</span></p>
+            <button class="checkout-button">Finalizar Compra</button>
+        </section>
+    </main>
+    <div class="footer">
+        <p>&copy; 2023 RL Imports. Todos os direitos reservados.</p>
+      </div>
+    <script src="scripts/cart-script.js"></script>
+</body>
+</html>
